@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+
+        .last-Button {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        #name {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #email {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #Instruction {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #other-dish {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome To Prottoy pitha TSC Expo</h1>
+    <form action="">
+        <p>Name: <input type="text" name="name" placeholder="Enter Your Name" id="name"></p>
+        <p>Email: <input type="email" name="Email" placeholder="Enter Your Email" id="email"></p>
+        <fieldset>
+            <Legend>Select Your Pitha</Legend>
+            <p>
+                <label for="Chitoy"><input type="radio" name="pitha" id="Chitoy">Chitoy</label>
+            </p>
+            <p>
+                <label for="vapa"><input type="radio" name="pitha" id="vapa">Vapa</label>
+            </p>
+            <p>
+                <label for="tell"><input type="radio" name="pitha" id="tell">Tell Er Pitha</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select Your Vorta</legend>
+            <p>
+                <lebel for="sorisa"><input type="checkbox" name="vorta" id="sorisa">sorisa</lebel>
+            </p>
+            <p>
+                <lebel for="shutki"><input type="checkbox" name="vorta" id="shutki">shutki</lebel>
+            </p>
+            <p>
+                <lebel for="begun"><input type="checkbox" name="vorta" id="begun">begun</lebel>
+            </p>
+        </fieldset>
+        <p>Special Instruction
+            <br>
+            <textarea name="Instruction" id="Instruction" cols="30" rows="10"></textarea>
+        </p>
+        <fieldset>
+            <legend> Select Your Cold drink</legend>
+            <p>
+                <label for="Coke"><input type="radio" name="cold Drink" id="Coke">Coke</label>
+            </p>
+            <p>
+                <label for="Pepsi"><input type="radio" name="cold Drink" id="Pepsi">Pepsi</label>
+            </p>
+            <p>
+                <label for="7UP"><input type="radio" name="cold Drink" id="7UP">7UP</label>
+            </p>
+        </fieldset>
+        <legend>Other Dish</legend>
+        <p>Any Other Dish
+            <br>
+            <textarea name="Other Dish" id="other-dish" cols="30" rows="10"></textarea>
+        </p>
+        <button class="last-Button" type="submit">Submit</button>
+        <button class="last-Button" type="reset">Reset</button>
+    </form>
+    <footer class="footer">©Copyright 2023 | Aronno Pitha World</footer>
+</body>
+
+</html>
