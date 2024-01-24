@@ -2,7 +2,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-nav ul {
+nav>ul {
     display: flex;
 }
 
@@ -20,4 +20,12 @@ nav li a {
     text-decoration: none;
     color: black;
     font-size: 20px;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+.dropdown {
+    display: none;
 }
